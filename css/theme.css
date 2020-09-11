@@ -7932,6 +7932,13 @@ section:not(.testimonial-3):not(.map-1):not(.imagebg):not(.imageblock):not(.bg--
 .wide-grid {
   max-width: 100%;
   padding: 0;
+  margin-left: 15% !important;
+}
+  
+  @media all and (max-width: 767px) {
+    .wide-grid {
+      margin-left: 0% !important;
+    }
 }
 .wide-grid > div[class*='col-'] {
   padding: 0;
